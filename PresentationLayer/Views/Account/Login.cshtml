@@ -1,0 +1,21 @@
+﻿@model UserDTO
+
+<div class="container-fluid">
+    <form method="post">
+
+        <div>
+            <label asp-for="Email"></label>
+            <input class="form-control" asp-for="Email" />
+        </div>
+        <div>
+            <label asp-for="Password" ></label>
+            <input class="form-control" asp-for="Password" />
+        </div>
+        <br />
+        <input type="submit" asp-action="Login" asp-controller="Account"
+               value="Login" as class="btn btn-primary" />
+
+    </form>
+
+
+</div>

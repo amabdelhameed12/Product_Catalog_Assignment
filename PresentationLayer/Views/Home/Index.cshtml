@@ -1,0 +1,43 @@
+﻿@model List<ProductDTO>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <h1 class="btn btn-outline-success"><a href="/Product/New">Add Product</a></h1>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>CreationDate </th>
+            <th>Price </th>
+            <th>Duration</th>
+            <th>Details</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th> Edit </th>
+                <th> Delete </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.CreationDate</td>
+                <td>@product.Price</td>
+                <td>@product.Duration  Months</td>
+                <td><a href="/Product/Details?id=@product.Id">Details</a></td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td><a href="/Product/Edit?id=@product.Id">Edit</a></td>
+                    <td><a href="/Product/Delete?id=@product.Id">Delete</a></td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+

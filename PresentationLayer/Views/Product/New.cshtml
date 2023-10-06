@@ -1,0 +1,60 @@
+﻿
+@model CreateProductViewModel
+
+@{
+    ViewData["Title"] = "New";
+      SelectList CategoryList = ViewBag.Cat;
+}
+
+<div class="container-fluid">
+    <h1>Add New Product</h1>
+    <form method="post">
+
+        <div>
+            <label asp-for="Name" ></label>
+            <input class="form-control" asp-for="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="CreationDate" ></label>
+            <input class="form-control" asp-for="CreationDate" />
+            <span asp-validation-for="CreationDate" class="text-danger"></span>
+
+        </div>
+
+        <div>
+            <label asp-for="StartDate" ></label>
+            <input class="form-control" asp-for="StartDate" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+
+        </div>
+
+
+        <div>
+            <label asp-for="Duration" ></label>
+            <input class="form-control" asp-for="Duration" />
+            <span asp-validation-for="Duration" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Price"></label>
+            <input class="form-control" asp-for="Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Category_Id"></label>
+            <select asp-for="Category_Id" asp-items="CategoryList " class="form-control">
+                <option value="0">---Select Category---</option>
+            </select>
+        </div>
+
+        <br />
+        <input type="submit" value="ADD" class="btn btn-primary" />
+    </form>
+</div>
+@section Scripts{
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
+
+

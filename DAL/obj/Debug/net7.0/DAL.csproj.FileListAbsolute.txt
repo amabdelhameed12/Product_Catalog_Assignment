@@ -1,0 +1,15 @@
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\bin\Debug\net7.0\BOL.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\bin\Debug\net7.0\BOL.pdb
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete

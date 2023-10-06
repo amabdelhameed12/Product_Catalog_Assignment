@@ -1,0 +1,19 @@
+﻿@model List<ProductDTO>
+@{
+    ViewData["Title"] = "GetProdByCatId";
+    Layout = "_Layout";
+}
+<div class="row" style="margin-left:100px">
+    @foreach (var prd in Model)
+    {
+                <div id="Card" class="card col-sm-4 mb-4" style="width: 18rem;margin:20px">
+                    <div class="card-body">
+                        <h5>@prd.Name</h5>
+                        <h5 class="card-text">@prd.Price</h5>
+                    </div>
+                    <div>
+                <a href="/Product/Details?id=@prd.Id">Show Details</a>
+                    </div>
+                </div>
+    }
+</div>

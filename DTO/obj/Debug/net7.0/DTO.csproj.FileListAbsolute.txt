@@ -1,0 +1,12 @@
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\bin\Debug\net7.0\DTO.deps.json
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\bin\Debug\net7.0\DTO.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\bin\Debug\net7.0\DTO.pdb
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.csproj.AssemblyReference.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.AssemblyInfoInputs.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.AssemblyInfo.cs
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\refint\DTO.dll
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\DTO.pdb
+C:\Users\PC_2023\source\repos\ProductCatalog\New folder\Product_Catalog\DTO\obj\Debug\net7.0\ref\DTO.dll

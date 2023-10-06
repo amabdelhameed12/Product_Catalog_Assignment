@@ -1,0 +1,56 @@
+﻿
+@model EditProductViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="container-fluid">
+    <h1>Edit Product</h1>
+
+    <form method="post">
+        <div asp-validation-summary="All" class=""> </div>
+
+        <div>
+            <label asp-for="Name" ></label>
+            <input class="form-control" asp-for="Name" value="@Model.Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div>
+            <label asp-for="CreationDate" ></label>
+            <input class="form-control" asp-for="CreationDate"  value="@Model.CreationDate.ToString("yyyy-MM-dd HH:mm:ss")" />
+            <span asp-validation-for="CreationDate" class="text-danger"></span>
+
+        </div>
+
+        <div>
+            <label asp-for="CreatedByUserId" ></label>
+            <input class="form-control" asp-for="CreatedByUserId" value="@Model.CreatedByUserId" />
+            <span asp-validation-for="CreatedByUserId" class="text-danger"></span>
+
+        </div>
+
+
+        <div>
+            <label asp-for="StartDate" ></label>
+            <input class="form-control" asp-for="StartDate" value="@Model.StartDate.ToString("yyyy-MM-dd HH:mm:ss")" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Duration" ></label>
+            <input class="form-control" asp-for="Duration" value="@Model.Duration" />
+            <span asp-validation-for="Duration" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Price"></label>
+            <input class="form-control" asp-for="Price" value="@Model.Price" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <br />
+        <input type="submit" value="Edit" class="btn btn-primary" />
+    </form>
+</div>
+@section Scripts{
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
